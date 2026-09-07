@@ -1,0 +1,51 @@
+{
+  "product": "Monitor Toggle",
+  "version": "v1.1.1",
+  "architecture": "arm64",
+  "minimumMacOS": "14.0",
+  "sourceRepository": "https://github.com/brainok/Monitor-single-dual-changer",
+  "sourceBaseCommit": "c0098041201a3b93a27e2f848b116c59ef36804b",
+  "includesUncommittedSourceChanges": false,
+  "sourceFileSHA256": {
+    "Package.swift": "b15262891f12e6ce00a04c21a8ad21b4115646caf7154412109709185bc49316",
+    "Resources/Info.plist": "b672e96934fbfaa5ef8dbe58b2805c553b6fd16aa8927deabe2b7adf25150684",
+    "Sources/MonitorToggle/AboutWindowController.swift": "f88da02158a7ebece86801dca7ac0ed9b513b25bb47a4d10f21a6930f8ebbab2",
+    "Sources/MonitorToggle/BrainokLicenseClient.swift": "dd494259dd5f647bb8d23bdac585c1902ca26c20343e43e4cff65b70b3c49f6b",
+    "Sources/MonitorToggle/EditingWindow.swift": "ec4b7d557af0f19d167a0bbb254fe6ffd1d17cef06dab66de6224393b7df5cdc",
+    "Sources/MonitorToggle/GlobalHotKeys.swift": "6746b7a06c327ebd38e752ed304ed752dacbada40dfb4e614ddeb8ddf6b7462e",
+    "Sources/MonitorToggle/LicenseActivationView.swift": "47452d4eaf5397563bfa32925e555c0a6b63793a58911071d5bca2452713c214",
+    "Sources/MonitorToggle/LicenseManager.swift": "1b3bf007dc807665d3d5cf976c671dc8db14db76a3c71390b45445de647e6687",
+    "Sources/MonitorToggle/LicenseStorage.swift": "626756fd6e0a095da3490199d212cb47a4add1ef387b39264d4657ffc9b7c3c3",
+    "Sources/MonitorToggle/MonitorToggleApp.swift": "8738b96fd570b02fcff3abb483f898569532f85fa55202bcb9c6035461ee4a49",
+    "Sources/MonitorToggle/SettingsModel.swift": "5d51fcc73d2edfe8d107a785e1bae07fb9b5f78994255dc82bda8cc29e058f0c",
+    "Sources/MonitorToggle/SettingsWindowController.swift": "e43f625218c84dcf7225d88ac81d5860eaf97722c0c880c3c336886f523793bb",
+    "Sources/MonitorToggle/SharedActivationCodes.swift": "1741b7449f29a9a0a32713725cd0db0879895a22e154f2bd8b7594f4e10edc42",
+    "Sources/MonitorToggle/SharedBrainokDeviceID.swift": "9964a386ebd42c179f57a39683fb4f9eb4c5c77b8b19a98c95877ca6d4ea1e67",
+    "scripts/build-app.sh": "217c011343c6ad563d216d6373a58837877e49aad8689ce7bcd01a2b7cfdf952"
+  },
+  "installerLayout": {
+    "windowSize": [
+      720,
+      560
+    ],
+    "appIcon": [
+      180,
+      275
+    ],
+    "applicationsIcon": [
+      540,
+      275
+    ],
+    "iconSize": 128,
+    "arrowAppKitCenterY": 285,
+    "mountedFinderScrollbarCount": 0,
+    "background": "white, black text, 1x/2x TIFF"
+  },
+  "signing": {
+    "identity": "Developer ID Application: HYO SUK NAM (FC724Q48DM)",
+    "appNotarizationSubmission": "035beae8-8991-480a-99bd-58208e203bdd",
+    "dmgNotarizationSubmission": "002dc23e-c061-42cb-90d7-0eb2380ef9fb",
+    "status": "App and DMG accepted, stapled, and Gatekeeper verified"
+  },
+  "dmgSHA256": "c9b3649b82bd769d27c4e8a93f646d5cf69549c025521d70fff125b7f02ac616"
+}
